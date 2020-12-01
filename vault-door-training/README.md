@@ -33,3 +33,8 @@ class VaultDoorTraining {
     }
 }
 ```
+
+## Solution
+By simply inspecting the code we can see that password is hardcoded in the java code that is written in the checkPassword function.
+
+**Flag**: picoCTF{w4rm1ng_Up_w1tH_jAv4_3808d338b46}
