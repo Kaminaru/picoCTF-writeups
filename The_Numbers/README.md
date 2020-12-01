@@ -10,7 +10,7 @@ The numbers... what do they mean?
 
 ## Solution
 From the hit we know that start of the flag will look like this: PICOCTF. So we know that: 16 - P | 9 - I | 3 - C | 15 - O | 20 - T | 6 - F.
-So by following numbers in alphabet we can decrypt the numbers on the picture one by one.
+So by following numbers in alphabet we can decrypt the numbers on the picture one by one.<br/>
 |A - 1|<br/>
 |B - 2|<br/>
 |C - 3|<br/>
