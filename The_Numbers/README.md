@@ -6,9 +6,15 @@ The numbers... what do they mean?
 (numbers is a link to a .png file
 
 ### the_numbers.png
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Kaminaru/picoCTF-writeups/blob/main/The_Numbers/the_numbers.png)
 
 ## Solution
-By simply inspecting the code we can see that password is hardcoded in the java code that is written in the checkPassword function.
+From the hit we know that start of the flag will look like this: PICOCTF. So we know that: 16 - P | 9 - I | 3 - C | 15 - O | 20 - T | 6 - F.
+So by following numbers in alphabet we can decrypt the numbers on the picture one by one.
+|A - 1|
+|B - 2|
+|C - 3|
+|D - 4|
+  ...
 
-**Flag**: picoCTF{w4rm1ng_Up_w1tH_jAv4_3808d338b46}
+**Flag**: PICOCTF{THENUMBERSMASON}
