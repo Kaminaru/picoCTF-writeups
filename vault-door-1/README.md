@@ -3,6 +3,9 @@
 ## Description
 This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here: ![VaultDoor1.java](https://github.com/Kaminaru/picoCTF-writeups/blob/main/vault-door-1/VaultDoor1.java)
 
+## Hint
+Look up the charAt() method online.
+
 ### VaultDoorTraining.java
 ```java
 import java.util.*;
@@ -67,7 +70,16 @@ class VaultDoor1 {
 
 
 ## Solution
+From main we can see that input is compared to all precoded characters in checkPassword function. checkPassword function checks if length of the password is 32 (with 'picoCTF{' part). From internet we can find that charAt() method in Java returns the character in a given index in the string. So we can find flag manualy but going from charAt(0) to charAt(31) because max index for string length 32 is 31. 
+<br/>
+|charAt(0) = 'd'|<br/>
+|charAt(1) = '3'|<br/>
+|charAt(2) = '5'|<br/>
+|charAt(3) = 'c'|<br/>
+        ...
+  
+It can be slow, so we can speed up a little by using grep command. 
+For each char we can write: grep charAt\(0\) VaultDoor1.java    (and change number from 0 to 31)
 
 
-
-**Flag**: 
+**Flag**: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_03f841}
