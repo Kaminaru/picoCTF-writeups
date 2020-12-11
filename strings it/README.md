@@ -5,7 +5,7 @@
 Can you find the flag in file (strings) without running it?
 
 ### strings
-![alt text](https://github.com/Kaminaru/picoCTF-writeups/blob/main/strings%20it/strings)
+![file: strings](https://github.com/Kaminaru/picoCTF-writeups/blob/main/strings%20it/strings)
 
 ## Solution
 We can use command:
