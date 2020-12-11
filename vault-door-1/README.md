@@ -78,7 +78,7 @@ From main we can see that input is compared to all precoded characters in checkP
 |charAt(3) = 'c'|<br/>
         ...
   
-It can be slow, so we can speed up a little by using grep command. <br/>
+It can be slow, so we can speed up a little by using **grep** command. <br/>
 For each char we can write: grep charAt\(0\) VaultDoor1.java    (and change number from 0 to 31)
 
 
