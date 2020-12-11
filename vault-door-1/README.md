@@ -82,4 +82,4 @@ It can be slow, so we can speed up a little by using **grep** command. <br/>
 For each char we can write: grep charAt\(0\) VaultDoor1.java    (and change number from 0 to 31)
 
 
-**Flag**: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_03f841}
+**Flag**: picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_f6daf4}
