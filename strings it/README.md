@@ -2,10 +2,7 @@
 
 ## Description
 
-Can you find the flag in file (strings) without running it?
-
-### strings
-![file: strings](https://github.com/Kaminaru/picoCTF-writeups/blob/main/strings%20it/strings)
+Can you find the flag in ![file: strings](https://github.com/Kaminaru/picoCTF-writeups/blob/main/strings%20it/strings) without running it?
 
 ## Solution
 We can use command:
